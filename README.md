@@ -2,3 +2,6 @@
 - npm install -g http-server 
 - http-server
 - 알려주는 주소로 접속
+
+# Netlify
+- https://sequiz.netlify.app/

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Software Engineering Quiz</h1>
+
+        <div id="start-screen" class="screen">
+            <p>Test your knowledge with questions from midterm and final quizzes.</p>
+            <button id="start-quiz-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen" style="display: none;">
+            <div id="progress-container">
+                <p id="progress-text"></p>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container">
+                    <!-- Options will be dynamically inserted here -->
+                </div>
+                <input type="text" id="fill-in-blank-input" style="display: none;" placeholder="Type your answer">
+            </div>
+            <div id="feedback-container">
+                <p id="feedback-text"></p>
+            </div>
+            <button id="submit-answer-btn">Submit Answer</button>
+            <button id="next-question-btn" style="display: none;">Next Question</button>
+        </div>
+
+        <div id="score-screen" class="screen" style="display: none;">
+            <h2>Quiz Complete!</h2>
+            <p id="score-text"></p>
+            <button id="restart-quiz-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

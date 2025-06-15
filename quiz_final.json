@@ -1,0 +1,429 @@
+[
+  {
+    "question": "What is the first goal of software testing?",
+    "options": [
+      "To demonstrate that the software meets its requirements",
+      "To find as many defects as possible",
+      "To reduce system performance issues",
+      "To optimize user experience"
+    ],
+    "answer": "To demonstrate that the software meets its requirements "
+  },
+  {
+    "question": "Which of the following is NOT part of development testing?",
+    "options": [
+      "Acceptance testing",
+      "Unit testing",
+      "Component testing",
+      "System testing"
+    ],
+    "answer": "Acceptance testing "
+  },
+  {
+    "question": " In test-driven development (TDD), what is created first?\t",
+    "options": [
+      "Tests",
+      "Code",
+      "Design document",
+      "User manual"
+    ],
+    "answer": "Tests"
+  },
+  {
+    "question": "In user testing, which type of testing is performed by users outside the development team at their own site?",
+    "options": [
+      "Beta testing",
+      "Alpha testing",
+      "Acceptance testing",
+      "Release testing"
+    ],
+    "answer": "Beta testing"
+  },
+  {
+    "question": "Validation testing aims to discover defects in a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Static inspections require execution of the program.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Partition testing identifies classes of inputs where the program should behave similarly.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Test-driven development (TDD) helps simplify debugging.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "System testing is performed after release testing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "What is the main reason organizations must evolve their software systems?",
+    "options": [
+      "To maintain the value of their business-critical software assets",
+      "To reduce maintenance costs",
+      "Because users demand graphical interfaces",
+      "To upgrade programming languages frequently"
+    ],
+    "answer": "To maintain the value of their business-critical software assets "
+  },
+  {
+    "question": "Which of the following is NOT typically a component of a legacy system?",
+    "options": [
+      "Blockchain nodes",
+      "System hardware",
+      "Business processes",
+      "Support software"
+    ],
+    "answer": "Blockchain nodes "
+  },
+  {
+    "question": "What type of maintenance is required when software needs to operate in a new environment?",
+    "options": [
+      "Environmental adaptation",
+      "Fault repair",
+      "Functionality addition",
+      "Code translation"
+    ],
+    "answer": "Environmental adaptation "
+  },
+  {
+    "question": "Which of these factors is NOT typically considered in environment assessment?",
+    "options": [
+      "Documentation quality",
+      "Supplier stability",
+      "Age of hardware",
+      "Performance"
+    ],
+    "answer": "Documentation quality "
+  },
+  {
+    "question": "Software change is inevitable due to changing requirements and environments.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Refactoring adds new functionality to a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Agile methods make the transition from development to evolution more difficult.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Legacy system replacement is generally low-risk and cost-effective.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Urgent changes may bypass some steps of the standard software engineering process.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "What factors influence the decision to maintain, replace, transform, or scrap a legacy system?",
+    "options": [
+      "System quality",
+      "business value"
+    ],
+    "answer": "System quality \nbusiness value"
+  },
+  {
+    "question": "What is the main purpose of Configuration Management (CM)?",
+    "options": [
+      "To manage changes in software systems",
+      "To design software architecture",
+      "To monitor software usage statistics",
+      "To automate UI testing"
+    ],
+    "answer": "To manage changes in software systems "
+  },
+  {
+    "question": "Which of the following is NOT typically part of configuration management activities?",
+    "options": [
+      "UI prototyping",
+      "Version management",
+      "Change management",
+      "System building"
+    ],
+    "answer": "UI prototyping "
+  },
+  {
+    "question": "In agile development, which of the following is essential for CM to function properly?",
+    "options": [
+      "Shared project repository",
+      "Static linking",
+      "Continuous delivery",
+      "Manual debugging"
+    ],
+    "answer": "Shared project repository "
+  },
+  {
+    "question": "Which version control system type allows every developer to have a full copy of the repository?",
+    "options": [
+      "Distributed",
+      "Centralized",
+      "Linear",
+      "Modular"
+    ],
+    "answer": "Distributed "
+  },
+  {
+    "question": "What is a \"baseline\" in CM terminology?",
+    "options": [
+      "A stable collection of component versions for a system",
+      "A bug-free version of software",
+      "A component that is yet to be versioned",
+      "The testing benchmark of the system"
+    ],
+    "answer": "A stable collection of component versions for a system "
+  },
+  {
+    "question": "What is the primary advantage of continuous integration?",
+    "options": [
+      "It quickly identifies integration problems",
+      "It eliminates the need for testing",
+      "It reduces disk space usage",
+      "It prevents developers from working independently"
+    ],
+    "answer": "It quickly identifies integration problems "
+  },
+  {
+    "question": "Version management and release management are essentially the same.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "A checksum is used to identify if a source file has changed.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Git stores all file versions as full copies to save time and disk space.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "In change management, the Change Control Board (CCB) decides whether a proposed change should be implemented.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Write one of factors that influence system release planning.",
+    "options": [
+      "nan"
+    ],
+    "answer": "Platform changes \ntechnical quality of the system \nmarketing requirement \ntechnical quality \nmarketing requirements \nCompetition "
+  },
+  {
+    "question": "Which of the following is not a primary concern of quality management at the organizational level?",
+    "options": [
+      "Establishing project milestones",
+      "Establishing processes and standards",
+      "Developing a quality culture",
+      "Ensuring high-quality software outcomes"
+    ],
+    "answer": "Establishing project milestones "
+  },
+  {
+    "question": "What is a common reason why software specifications make quality assessment difficult?",
+    "options": [
+      "They are incomplete and inconsistent",
+      "Specifications are always too detailed",
+      "Developers ignore them",
+      "Standards don't exist for specifications"
+    ],
+    "answer": "They are incomplete and inconsistent "
+  },
+  {
+    "question": "What kind of standards define how a programming language should be used?",
+    "options": [
+      "Product standards",
+      "Process standards",
+      "Documentation standards",
+      "ISO standards"
+    ],
+    "answer": "Product standards "
+  },
+  {
+    "question": "Which of the following is a dynamic metric?",
+    "options": [
+      "Response time",
+      "Cyclomatic complexity",
+      "Fan-in/Fan-out",
+      "Depth of nesting"
+    ],
+    "answer": "Response time "
+  },
+  {
+    "question": "In agile quality management, the emphasis is placed on:",
+    "options": [
+      "A quality culture",
+      "Detailed quality manuals",
+      "ISO 9001 certification",
+      "Process control boards"
+    ],
+    "answer": "A quality culture "
+  },
+  {
+    "question": "What is the purpose of an inspection checklist in program inspection?",
+    "options": [
+      "To drive detection of common errors",
+      "To evaluate developer productivity",
+      "To ensure process adherence",
+      "To track project completion"
+    ],
+    "answer": "To drive detection of common errors "
+  },
+  {
+    "question": "According to the CK metric suite, what does WMC stand for?",
+    "options": [
+      "Weighted Methods per Class",
+      "Weighted Metrics by Category",
+      "Workload Measure by Class",
+      "Weighted Model Complexity"
+    ],
+    "answer": "Weighted Methods per Class "
+  },
+  {
+    "question": "A software product that conforms to ISO 9001 certification is guaranteed to meet end-user quality expectations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Static metrics are directly related to dynamic attributes like performance and reliability.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Reviews and inspections can be conducted remotely using shared documents.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Product standards include submission processes and version control.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "In pair programming, both programmers must deeply understand the code being developed.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "What is the primary assumption underlying defect prediction models?",
+    "options": [
+      "The more complex the software or process, the more defect-prone it is",
+      "More developers reduce defects",
+      "Complex software is less likely to contain defects",
+      "Older software tends to be more buggy"
+    ],
+    "answer": "The more complex the software or process, the more defect-prone it is "
+  },
+  {
+    "question": "Which of the following is not a classification model used in defect prediction?",
+    "options": [
+      "Halstead Regression",
+      "J48 Decision Tree",
+      "Support Vector Machine",
+      "Logistic Regression"
+    ],
+    "answer": "Halstead Regression "
+  },
+  {
+    "question": "What does the CK metric \u201cLCOM\u201d stand for?",
+    "options": [
+      "Lack of Cohesion in Methods",
+      "Lines of Code on Module",
+      "Level of Code Maturity",
+      "Logical Complexity of Module"
+    ],
+    "answer": "Lack of Cohesion in Methods "
+  },
+  {
+    "question": "What was a key limitation of the BugCache approach (Kim@ICSE\u201907)?",
+    "options": [
+      "Not reusable across projects",
+      "Requires deep learning models",
+      "High computation cost",
+      "Depends on Halstead metrics"
+    ],
+    "answer": "Not reusable across projects "
+  },
+  {
+    "question": "In cross-project defect prediction (CPDP), what is the main challenge?",
+    "options": [
+      "Metric heterogeneity",
+      "Low recall",
+      "High bug density",
+      "Dataset overfitting"
+    ],
+    "answer": "Metric heterogeneity "
+  }
+]

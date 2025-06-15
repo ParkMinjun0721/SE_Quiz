@@ -1,0 +1,818 @@
+[
+  {
+    "question": "What is software?",
+    "options": [
+      "Computer programs and associated documentation",
+      "A collection of hardware components",
+      "Only the executable files of a program",
+      "A method to operate hardware"
+    ],
+    "answer": "Computer programs and associated documentation"
+  },
+  {
+    "question": "Which of the following is NOT an essential attribute of good software?",
+    "options": [
+      "High cost",
+      "Maintainability",
+      "Dependability",
+      "Efficiency"
+    ],
+    "answer": "High cost"
+  },
+  {
+    "question": "What is the primary focus of software engineering?",
+    "options": [
+      "Managing the entire software development lifecycle",
+      "Writing code as quickly as possible",
+      "Testing software after deployment",
+      "Selling software to customers"
+    ],
+    "answer": "Managing the entire software development lifecycle"
+  },
+  {
+    "question": "What is the difference between generic and customized software products?",
+    "options": [
+      "Generic products are developed for a general market, while customized products are commissioned for specific customers",
+      "Generic products are developed for specific customers, while customized products are for a general market",
+      "Generic products cannot be modified, while customized products allow modifications",
+      "There is no difference between them"
+    ],
+    "answer": "Generic products are developed for a general market, while customized products are commissioned for specific customers"
+  },
+  {
+    "question": "Which of the following is NOT one of the four fundamental software engineering activities?",
+    "options": [
+      "Software deployment",
+      "Software development",
+      "Software validation",
+      "Software evolution"
+    ],
+    "answer": "Software deployment"
+  },
+  {
+    "question": "Software engineering is only about coding and programming.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Dependability and security are critical aspects of software quality.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Software evolution refers to modifying software to reflect changing customer and market requirements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Software engineering and computer science are the same fields with no significant differences.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "What are the four key activities involved in every software process?",
+    "options": [
+      "Specification, Design and Implementation, Validation, Evolution",
+      "Planning, Development, Testing, Deployment",
+      "Analysis, Coding, Debugging, Maintenance",
+      "Requirements, Design, Coding, Testing"
+    ],
+    "answer": "Specification, Design and Implementation, Validation, Evolution"
+  },
+  {
+    "question": "Which of the following best describes a software process model?",
+    "options": [
+      "An abstract representation of a process",
+      "A detailed code design document",
+      "A set of instructions for developing software",
+      "A testing framework for code validation"
+    ],
+    "answer": "An abstract representation of a process"
+  },
+  {
+    "question": "Which type of software process is characterized by incremental planning and easier adaptability to change?",
+    "options": [
+      "Agile",
+      "Waterfall",
+      "Spiral",
+      "V-Model"
+    ],
+    "answer": "Agile"
+  },
+  {
+    "question": "Which of the following is a key characteristic of the waterfall model?",
+    "options": [
+      "Distinct phases that are completed sequentially",
+      "Parallel development of software components",
+      "Flexibility in requirements changes",
+      "Continuous customer involvement"
+    ],
+    "answer": "Distinct phases that are completed sequentially"
+  },
+  {
+    "question": "What is a primary drawback of the waterfall model?",
+    "options": [
+      "Difficulty accommodating changes after a phase is complete",
+      "Lack of documentation",
+      "Unclear role assignments",
+      "Absence of planning stages"
+    ],
+    "answer": "Difficulty accommodating changes after a phase is complete"
+  },
+  {
+    "question": "For which type of system is the waterfall model best suited?",
+    "options": [
+      "Embedded systems requiring stable specifications",
+      "Small web applications",
+      "Systems with frequently changing requirements",
+      "Rapidly evolving mobile applications"
+    ],
+    "answer": "Embedded systems requiring stable specifications"
+  },
+  {
+    "question": "Which of the following is NOT an advantage of incremental development?",
+    "options": [
+      "Complete documentation for every increment",
+      "Faster delivery of software to customers",
+      "Easier customer feedback integration",
+      "Reduced costs of accommodating changing requirements"
+    ],
+    "answer": "Complete documentation for every increment"
+  },
+  {
+    "question": "What is a major challenge with incremental development?",
+    "options": [
+      "System structure may degrade over time",
+      "Customer feedback is harder to collect",
+      "Testing is not required for early increments",
+      "Requirements are frozen at the start"
+    ],
+    "answer": "System structure may degrade over time"
+  },
+  {
+    "question": "Which of the following is NOT a key activity in process improvement?",
+    "options": [
+      "Process expansion",
+      "Process measurement",
+      "Process analysis",
+      "Process change"
+    ],
+    "answer": "Process expansion"
+  },
+  {
+    "question": "Which phase in software testing involves testing the system as a whole?",
+    "options": [
+      "System testing",
+      "Component testing",
+      "Integration testing",
+      "Unit testing"
+    ],
+    "answer": "System testing"
+  },
+  {
+    "question": "What is the primary purpose of validation in software engineering?",
+    "options": [
+      "Ensuring the system meets customer needs",
+      "Ensuring the system meets design specifications",
+      "Detecting security vulnerabilities",
+      "Improving code performance"
+    ],
+    "answer": "Ensuring the system meets customer needs"
+  },
+  {
+    "question": "Which testing stage involves the customer\u2019s data for evaluation?",
+    "options": [
+      "Customer testing",
+      "Integration testing",
+      "Beta testing",
+      "Regression testing"
+    ],
+    "answer": "Customer testing"
+  },
+  {
+    "question": "Which of the following is NOT one of the key success criteria for software project management?",
+    "options": [
+      "Maximize the number of team members",
+      "Deliver the software on time",
+      "Deliver software that meets the customer's expectations",
+      "Keep costs within budget"
+    ],
+    "answer": "Maximize the number of team members"
+  },
+  {
+    "question": "Which of the following is considered a \u2018Project Risk\u2019?",
+    "options": [
+      "Staff turnover",
+      "Technology change",
+      "CASE tool underperformance",
+      "Product competition"
+    ],
+    "answer": "Staff turnover"
+  },
+  {
+    "question": "What is the first stage in the risk management process?",
+    "options": [
+      "Risk identification",
+      "Risk monitoring",
+      "Risk planning",
+      "Risk analysis"
+    ],
+    "answer": "Risk identification"
+  },
+  {
+    "question": "Which of the following is an example of a 'People' risk?",
+    "options": [
+      "Required training for staff is unavailable",
+      "Specification delays",
+      "Hardware delivery delays",
+      "Organizational restructuring"
+    ],
+    "answer": "Required training for staff is unavailable"
+  },
+  {
+    "question": "What is a common strategy to mitigate the risk of \"Organizational financial problems\"?",
+    "options": [
+      "Preparing a briefing document for senior management",
+      "Replacing key personnel",
+      "Investigating open-source software alternatives",
+      "Creating a contingency fund"
+    ],
+    "answer": "Creating a contingency fund"
+  },
+  {
+    "question": "Which phase involves creating the initial project plan that defines staffing, budget, and resources?",
+    "options": [
+      "Proposal planning",
+      "Development planning",
+      "Project monitoring",
+      "Project closure"
+    ],
+    "answer": "Proposal planning"
+  },
+  {
+    "question": "Which of the following is NOT a common software pricing factor?",
+    "options": [
+      "Staff vacation schedules",
+      "Hardware costs",
+      "Staff salaries",
+      "Training costs"
+    ],
+    "answer": "Staff vacation schedules"
+  },
+  {
+    "question": "Which project planning technique is based on predicting the number of 'effort points' a team can complete within a given time?",
+    "options": [
+      "Agile planning",
+      "COCOMO",
+      "Waterfall Model",
+      "Spiral Model"
+    ],
+    "answer": "Agile planning"
+  },
+  {
+    "question": "Which chart is commonly used to represent the project schedule graphically?",
+    "options": [
+      "Gantt chart",
+      "Pie chart",
+      "Line graph",
+      "Scatter plot"
+    ],
+    "answer": "Gantt chart"
+  },
+  {
+    "question": "In COCOMO cost modeling, what does \u2018A\u2019 represent in the formula: PM = A \u00d7 SizeB \u00d7 M?",
+    "options": [
+      "A constant depending on the organization",
+      "An adjustable variable for schedule flexibility",
+      "The predicted number of person-months",
+      "The project completion deadline"
+    ],
+    "answer": "A constant depending on the organization"
+  },
+  {
+    "question": "Risk analysis is the final step in the risk management process.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "The primary goal of a project manager is to minimize risks at all costs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Project managers can rely entirely on intuition when planning and monitoring project progress.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Large teams with over 12 members are preferred in software engineering projects to maximize communication flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "The COCOMO model is primarily used to estimate software project costs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "The primary purpose of a milestone is to deliver a complete product to the customer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "In Agile planning, the scope of work can be adjusted mid-development to meet iteration deadlines.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "A staff allocation chart is used to track software bugs and issues.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "A key indicator of poor people management is low staff morale.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Underestimating project size is a common estimation risk in software development.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Which of the following is a core value of the Agile Manifesto?",
+    "options": [
+      "Responding to change over following a plan",
+      "Comprehensive documentation over working software",
+      "Processes and tools over individuals and interactions",
+      "Contract negotiation over customer collaboration"
+    ],
+    "answer": "Responding to change over following a plan"
+  },
+  {
+    "question": "Which Agile methodology emphasizes frequent releases, user involvement, and minimal documentation?",
+    "options": [
+      "Extreme Programming (XP)",
+      "Scrum",
+      "Waterfall",
+      "V-Model"
+    ],
+    "answer": "Extreme Programming (XP)"
+  },
+  {
+    "question": "What is the primary purpose of refactoring in Agile development?",
+    "options": [
+      "Improving code clarity and structure for easier changes",
+      "Adding new features to the codebase",
+      "Ensuring project timelines are met",
+      "Increasing system documentation"
+    ],
+    "answer": "Improving code clarity and structure for easier changes"
+  },
+  {
+    "question": "Which of the following best describes a Scrum Master\u2019s responsibility?",
+    "options": [
+      "Ensuring the Scrum process is followed and protecting the team from distractions",
+      "Managing the product backlog",
+      "Writing user stories",
+      "Developing code for the project"
+    ],
+    "answer": "Ensuring the Scrum process is followed and protecting the team from distractions"
+  },
+  {
+    "question": "What is the primary purpose of the product backlog in Scrum?",
+    "options": [
+      "To maintain a list of pending tasks and requirements",
+      "To define the project\u2019s budget and timeline",
+      "To organize team members' daily tasks",
+      "To track customer feedback and reviews"
+    ],
+    "answer": "To maintain a list of pending tasks and requirements"
+  },
+  {
+    "question": "What is the purpose of Test-Driven Development (TDD)?",
+    "options": [
+      "Writing tests before implementing functionality to clarify requirements",
+      "Writing code before tests to minimize rework",
+      "Writing system documentation alongside code",
+      "Using manual testing to validate new code"
+    ],
+    "answer": "Writing tests before implementing functionality to clarify requirements"
+  },
+  {
+    "question": "In Scrum, what is the term used for the fixed period during which a development team builds a specific product increment?",
+    "options": [
+      "Sprint",
+      "Iteration",
+      "Release cycle",
+      "Planning phase"
+    ],
+    "answer": "Sprint"
+  },
+  {
+    "question": "Which of the following is NOT a principle of Agile methods?",
+    "options": [
+      "Prescriptive process control",
+      "Customer involvement",
+      "Incremental delivery",
+      "Simplicity in development"
+    ],
+    "answer": "Prescriptive process control"
+  },
+  {
+    "question": "Which Agile practice involves developers working together at one computer to improve collaboration and code quality?",
+    "options": [
+      "Pair programming",
+      "Stand-up meetings",
+      "Continuous integration",
+      "Refactoring"
+    ],
+    "answer": "Pair programming"
+  },
+  {
+    "question": "Which of the following is a common risk in Agile development for large systems?",
+    "options": [
+      "Incompatibility with traditional contract-based project management",
+      "Lack of software testing frameworks",
+      "Delayed customer feedback",
+      "Limited team communication"
+    ],
+    "answer": "Incompatibility with traditional contract-based project management"
+  },
+  {
+    "question": "Agile methods prioritize detailed upfront documentation over working software.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Extreme Programming (XP) encourages developers to write unit tests after writing the code to ensure functionality.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "A \u2018Scrum of Scrums\u2019 is a meeting where representatives from multiple Scrum teams coordinate their progress.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Refactoring aims to improve code quality by adding new features during each iteration.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "The Product Owner is responsible for shielding the development team from external distractions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "In Agile development, customer involvement is important throughout the entire project life cycle.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Agile methods are generally well-suited for projects with fixed, unchangeable requirements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Continuous integration requires developers to integrate code changes frequently and run automated tests to ensure stability.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Pair programming is considered inefficient because it reduces individual productivity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Agile methods generally work best with small, co-located teams rather than large, distributed teams.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Which of the following is NOT a type of requirement?",
+    "options": [
+      "Procedural",
+      "Functional",
+      "Non-functional",
+      "Domain"
+    ],
+    "answer": "Procedural"
+  },
+  {
+    "question": "Which of these is a characteristic of non-functional requirements?",
+    "options": [
+      "Define constraints such as timing or standards",
+      "Are only used during prototyping",
+      "Are written in code",
+      "Describe services the system should provide"
+    ],
+    "answer": "Define constraints such as timing or standards"
+  },
+  {
+    "question": "What technique involves observing stakeholders in their natural environment?",
+    "options": [
+      "Ethnography",
+      "Interviews",
+      "Surveys",
+      "Brainstorming"
+    ],
+    "answer": "Ethnography"
+  },
+  {
+    "question": "Which UML diagram is used to show system behavior in response to events?",
+    "options": [
+      "State diagram",
+      "Class diagram",
+      "Sequence diagram",
+      "Use case diagram"
+    ],
+    "answer": "State diagram"
+  },
+  {
+    "question": "Which of the following is true about sequence diagrams?",
+    "options": [
+      "They depict object interactions over time",
+      "They show class inheritance",
+      "They are used for modeling state transitions",
+      "They define the physical structure of a system"
+    ],
+    "answer": "They depict object interactions over time"
+  },
+  {
+    "question": "In model-driven engineering, what is a PIM?",
+    "options": [
+      "Platform Independent Model",
+      "Platform-Integrated Model",
+      "rocess Implementation Map",
+      "Preliminary Interaction Model"
+    ],
+    "answer": "Platform Independent Model"
+  },
+  {
+    "question": "Functional requirements are usually more critical than non-functional requirements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "The requirements engineering process is a one-time activity at the beginning of development.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Context models show how a system is used in broader business processes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Use case diagrams describe the internal software architecture.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Which architectural pattern is most suitable for systems requiring multiple views and user interactions?",
+    "options": [
+      "Model-View-Controller (MVC)",
+      "Layered architecture",
+      "Repository architecture",
+      "Client-server architecture"
+    ],
+    "answer": "Model-View-Controller (MVC)"
+  },
+  {
+    "question": "What is the main purpose of box and line diagrams in architectural design?",
+    "options": [
+      "To support project planning and stakeholder communication",
+      "To show exact component logic",
+      "To present detailed data flows",
+      "To define coding structure"
+    ],
+    "answer": "To support project planning and stakeholder communication"
+  },
+  {
+    "question": "Which architectural pattern is a good choice for batch data processing systems?",
+    "options": [
+      "Pipe and filter",
+      "Layered architecture",
+      "Client-server",
+      "Model-View-Controller (MVC)"
+    ],
+    "answer": "Pipe and filter"
+  },
+  {
+    "question": "Architectural models are mainly useful only during the coding phase.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "The layered architecture pattern guarantees strict separation between layers in practice.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Which of the following is NOT a typical activity in object-oriented design?",
+    "options": [
+      "Write test cases",
+      "Identify system objects",
+      "Define object interfaces",
+      "Understand context and external interactions"
+    ],
+    "answer": "Write test cases"
+  },
+  {
+    "question": "What is the main goal of configuration management?",
+    "options": [
+      "To manage system changes and enable coordinated development",
+      "To improve system runtime speed",
+      "To generate automatic code",
+      "To visualize design models"
+    ],
+    "answer": "To manage system changes and enable coordinated development"
+  },
+  {
+    "question": "Which of the following is a key benefit of using the Observer design pattern?",
+    "options": [
+      "Minimal coupling between subject and observers",
+      "Increased display performance",
+      "Reduction in system complexity",
+      "Simplified interface design"
+    ],
+    "answer": "Minimal coupling between subject and observers"
+  },
+  {
+    "question": "Design patterns are only applicable in object-oriented systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Reuse at the system level involves reusing individual classes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "What is a key motivation behind the use of the open-source development model by companies?",
+    "options": [
+      "Selling support rather than the software",
+      "Selling the software at a lower cost",
+      "Reducing the number of developers",
+      "Limiting user access to the source code"
+    ],
+    "answer": "Selling support rather than the software"
+  },
+  {
+    "question": "Which of the following is a non-reciprocal open source license?",
+    "options": [
+      "BSD",
+      "GPL",
+      "LGPL",
+      "AGPL"
+    ],
+    "answer": "BSD"
+  },
+  {
+    "question": "What is a pull request in open-source development?",
+    "options": [
+      "A typical way users contribute code patches",
+      "A user request for more documentation",
+      "A formal proposal to fork a repository",
+      "A legal request to change license terms"
+    ],
+    "answer": "A typical way users contribute code patches"
+  },
+  {
+    "question": "Open source software development originated from the Free Software Foundation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "Open source code is public domain and can be used without any legal restrictions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Continuous testing is a common part of the open-source software development model.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true
+  },
+  {
+    "question": "You must always open-source your own code if you link to any OSS component.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  },
+  {
+    "question": "Participation in OSS projects is limited only to developers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false
+  }
+]

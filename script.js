@@ -73,32 +73,45 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         currentQuestionData = allQuestions[currentQuestionIndex];
-        questionTextEl.textContent = currentQuestionData.question.replace(/\t/g, ' ').trim(); // Clean tabs
+        questionTextEl.textContent = currentQuestionData.question.replace(/\t/g, ' ').trim();
         optionsContainer.innerHTML = '';
         fillInBlankInput.style.display = 'none';
-        fillInBlankInput.value = ''; // Clear previous input
+        fillInBlankInput.value = '';
 
-        progressTextEl.textContent = `Question ${currentQuestionIndex + 1} of ${allQuestions.length}`;
+        progressTextEl.textContent = `질문 ${currentQuestionIndex + 1} / ${allQuestions.length}`;
+
+        // True/False 문제인지 확인 (옵션이 2개이고, 각각 "True", "False"인지 - 대소문자 무시)
+        const isTrueFalseQuestion = currentQuestionData.options.length === 2 &&
+                                   currentQuestionData.options.every(opt => 
+                                       typeof opt === 'string' && ['true', 'false'].includes(opt.toLowerCase().trim())
+                                   );
 
         if (currentQuestionData.options.length === 1 && currentQuestionData.options[0].toLowerCase() === 'nan') {
-            // Fill-in-the-blank type question
+            // 주관식 (fill-in-the-blank)
             fillInBlankInput.style.display = 'block';
             optionsContainer.style.display = 'none';
         } else {
-            // Multiple choice or True/False
+            // 객관식 또는 True/False
             optionsContainer.style.display = 'block';
-            currentQuestionData.options.forEach((option, index) => {
+            let optionsToDisplay = [...currentQuestionData.options]; // 원본 배열 복사
+
+            // True/False 문제가 아닐 경우에만 옵션 섞기
+            if (!isTrueFalseQuestion) {
+                shuffleArray(optionsToDisplay); // 여기서 기존 shuffleArray 함수 재활용
+            }
+
+            optionsToDisplay.forEach((option, index) => {
                 const optionLabel = document.createElement('label');
                 optionLabel.className = 'option-label';
                 
                 const radioButton = document.createElement('input');
                 radioButton.type = 'radio';
                 radioButton.name = 'option';
-                radioButton.value = option.trim(); // Trim option text
+                radioButton.value = option.toString().trim(); // 옵션이 boolean일 수도 있으므로 toString() 추가
                 radioButton.id = `option-${index}`;
 
                 optionLabel.appendChild(radioButton);
-                optionLabel.appendChild(document.createTextNode(option.trim())); // Trim option text
+                optionLabel.appendChild(document.createTextNode(option.toString().trim())); // 옵션이 boolean일 수도 있으므로 toString() 추가
                 optionsContainer.appendChild(optionLabel);
             });
         }
